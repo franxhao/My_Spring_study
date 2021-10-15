@@ -1,11 +1,7 @@
-package service.impl;
+package com.hqyj.service.impl;
 
-import dao.UserDao;
-import dao.impl.UserDaoImpl;
-import dao.impl.UserDaoMysqlImpl;
-import dao.impl.UserDaoOracleImpl;
-import dao.impl.UserDaoSQLServerImpl;
-import service.UserService;
+import com.hqyj.dao.UserDao;
+import com.hqyj.service.UserService;
 
 /**
  * 1.演示没有使用Spring IOC容器

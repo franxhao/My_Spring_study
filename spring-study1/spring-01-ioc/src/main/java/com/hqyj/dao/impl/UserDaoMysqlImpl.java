@@ -1,6 +1,6 @@
-package dao.impl;
+package com.hqyj.dao.impl;
 
-import dao.UserDao;
+import com.hqyj.dao.UserDao;
 
 public class UserDaoMysqlImpl implements UserDao {
     public void getUser() {

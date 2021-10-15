@@ -1,7 +1,6 @@
-import dao.impl.UserDaoMysqlImpl;
-import dao.impl.UserDaoOracleImpl;
-import service.UserService;
-import service.impl.UserServiceImpl;
+import com.hqyj.dao.impl.UserDaoOracleImpl;
+import com.hqyj.service.UserService;
+import com.hqyj.service.impl.UserServiceImpl;
 
 public class MyTest {
     public static void main(String[] args) {
