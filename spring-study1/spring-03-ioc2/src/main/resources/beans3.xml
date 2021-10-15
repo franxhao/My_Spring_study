@@ -32,7 +32,7 @@
       class : bean 对象所对应的全限定名：包名 + 类型
       name : 也是别名，而且 name 可以同时取多个别名；其中 空格、逗号、分号都可以作为分隔符
       -->
-    <bean id="userT" class="com.hqyj.pojo.UserT" name="u2 u3,u4;u5">
-        <property name="name" value="大嘤嘤1"/>
+    <bean id="userT3" class="com.hqyj.pojo.UserT" name="u2 u3,u4;u5;u7">
+        <property name="name" value="大嘤嘤3"/>
     </bean>
 </beans>
